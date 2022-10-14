@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.form-container{
+    max-width: 500px;
+    margin: auto;
+    padding: 4rem 1rem;
+}
+
+.product-img{
+    width: 400px;
+    object-fit: cover;
+}
+
+.birthdays{
+    font-weight: 600 !important;
+    color: #000 !important;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    padding: 5rem 1rem;
+    background-color: rgb(0, 140, 255);
+}
+
+.sidebar-menu{
+    list-style: none;
+}
+
+.sidebar-menu li{
+    padding: 0.5rem 0;
+}
+
+
+.sidebar-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content{
+    width: 80% !important;
+    margin-left: auto !important;
+    padding: 5rem 2rem;
+}
